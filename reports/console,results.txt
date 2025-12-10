@@ -1,0 +1,125 @@
+run:
+*** SORTING BENCHMARK ***
+
+~~~ DATA TYPE: Random~~~
+
+Size = 1000
+Insertion Sort: 1 ms
+Merge Sort: 2 ms
+Heap Sort: 1 ms
+Quick Sort: 1 ms
+RandomizedQuick Sort: 0 ms
+
+Size = 10000
+Insertion Sort: 18 ms
+Merge Sort: 4 ms
+Heap Sort: 3 ms
+Quick Sort: 1 ms
+RandomizedQuick Sort: 0 ms
+
+Size = 50000
+Insertion Sort: 452 ms
+Merge Sort: 7 ms
+Heap Sort: 7 ms
+Quick Sort: 9 ms
+RandomizedQuick Sort: 0 ms
+
+Size = 100000
+Insertion Sort: 548 ms
+Merge Sort: 14 ms
+Heap Sort: 14 ms
+Quick Sort: 10 ms
+RandomizedQuick Sort: 0 ms
+
+~~~ DATA TYPE: FewUnique~~~
+
+Size = 1000
+Insertion Sort: 0 ms
+Merge Sort: 0 ms
+Heap Sort: 0 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 10000
+Insertion Sort: 4 ms
+Merge Sort: 4 ms
+Heap Sort: 0 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 50000
+Insertion Sort: 102 ms
+Merge Sort: 7 ms
+Heap Sort: 3 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 100000
+Insertion Sort: 462 ms
+Merge Sort: 6 ms
+Heap Sort: 6 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+~~~ DATA TYPE: Sorted~~~
+
+Size = 1000
+Insertion Sort: 0 ms
+Merge Sort: 0 ms
+Heap Sort: 0 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 10000
+Insertion Sort: 0 ms
+Merge Sort: 0 ms
+Heap Sort: 1 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 50000
+Insertion Sort: 0 ms
+Merge Sort: 2 ms
+Heap Sort: 5 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 100000
+Insertion Sort: 0 ms
+Merge Sort: 10 ms
+Heap Sort: 7 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+~~~ DATA TYPE: Reverse~~~
+
+Size = 1000
+Insertion Sort: 1 ms
+Merge Sort: 0 ms
+Heap Sort: 1 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 10000
+Insertion Sort: 12 ms
+Merge Sort: 1 ms
+Heap Sort: 0 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 50000
+Insertion Sort: 278 ms
+Merge Sort: 2 ms
+Heap Sort: 3 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+Size = 100000
+Insertion Sort: 1109 ms
+Merge Sort: 3 ms
+Heap Sort: 8 ms
+Quick Sort: skipped (worst-case input) causes StackOverFlow error
+RandomizedQuick Sort: 0 ms
+
+ *** finish *** 
+BUILD SUCCESSFUL (total time: ٣ seconds)
