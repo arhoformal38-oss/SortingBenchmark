@@ -34,7 +34,7 @@ public class SortingBenchmarkAR {
                         mergeSort(Datacopy, 0, Datacopy.length - 1);
                     } else if (algo.equals("Heap")) {
                         heapSort(Datacopy);
-                    } else if (algo.equals("Randomized Quick ")) {
+                    } else if (algo.equals("RandomizedQuick ")) {
                         randomizedQuickSort(Datacopy, 0, Datacopy.length - 1);
                     }
                     if ((algo.equals("Quick"))
@@ -248,4 +248,5 @@ public class SortingBenchmarkAR {
         int temp = arr[pivotIndex];
         arr[pivotIndex] = arr[high];
         arr[high] = temp;
+
     }}
